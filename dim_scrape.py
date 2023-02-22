@@ -13,7 +13,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 #Run Selenium
 driver = webdriver.Chrome(r"/Users/jarkrunglerdkriangkrai/Github/setscraping/chromedriver")
-driver.get('import gspread
+driver.get('import gspread')
 from gspread_dataframe import set_with_dataframe
 import pandas as pd
 import numpy as np
@@ -43,7 +43,7 @@ ws = sh.worksheet("Sheet1")
 ws.clear()
 
 #Write the dataframe to the worksheet
-set_with_dataframe(ws, df)')
+set_with_dataframe(ws, df)
 data = driver.page_source
 
 #Read Data
